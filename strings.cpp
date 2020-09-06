@@ -1,10 +1,14 @@
 #include <iostream>
-using std::cout;
+
 
 int main() {
-    int slices = 5;
-    // printf comes from C and can be used to print values.
-    // first arg is the type (integer) and must be given
-    // it is often easier to use std::cout with << 
-    printf("%i\n", slices);
+    // must be DOUBLE quotes
+    // string is a class in C++
+    std::string greeting = "Hello";
+    std::cout << greeting[0] << std::endl; //  print char of  astring
+    std::cout << greeting.length() << std::endl; 
+
+    // c style string:
+    // cannot change the value once defined
+    char name[] = "Caleb"
 }
