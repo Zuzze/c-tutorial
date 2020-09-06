@@ -8,6 +8,9 @@ int main() {
     // enums
     enum { y = 100 };
 
+    // only in C++ 11
+    // auto x = 5U; // unsigned 
+
     cout << X << "\n";
     cout << x;
 }
